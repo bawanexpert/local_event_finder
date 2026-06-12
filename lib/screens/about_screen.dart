@@ -198,8 +198,9 @@ class _AboutScreenState extends State<AboutScreen>
           SizedBox(
             width: double.infinity,
             child: OutlinedButton.icon(
-              onPressed: () =>
-                  _launchURL('https://github.com/Bawan/local_event_finder'),
+              onPressed: () => _launchURL(
+                'https://github.com/bawanexpert/local_event_finder.git',
+              ),
               icon: const Icon(Icons.code_rounded, size: 18),
               label: const Text('View Source on GitHub'),
               style: OutlinedButton.styleFrom(
